@@ -1,0 +1,87 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+#container {
+	width: 100%;
+}
+.black-bg {
+	background-color: #424a5d;
+}
+.header {
+	color: white;
+	width: 100%;
+	position: fixed;
+	padding: 20px;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.sidebar-toggle-box{
+	display: inline-block;
+	font-size: 17px;
+	margin-right: 2%
+}
+#sidebar {
+	background-color:#424a5d;
+	display: inline-block;
+	position: fixed;
+	top: 88px;
+	height: 100%;
+	left: 0;
+	z-index: 5;
+	padding: 1% 1%;
+
+}
+.sidebar-menu {
+	    padding-left: 0;
+}
+.logo {
+	color:white;
+	font-size: 20px;
+}
+.top-menu {
+	display: inline;
+	padding: 0;
+}
+.logout {
+	color: white;
+	font-size: 20px;
+}
+
+/*fin de header*/
+/*contenido*/
+#main-content {
+	top: 70px;
+	position: relative;
+	padding: 0;
+}
+.text-center {
+	color: white;
+	text-decoration: none;
+}
+.sub-menu {
+	padding: 10px 2px;
+    
+    list-style: none;
+}
+.sub-menu a {
+	text-decoration: none;
+	color: white;
+}
+.sub-menu:hover {
+	color: #428bca;
+
+}
+.hover:a {
+	
+}
